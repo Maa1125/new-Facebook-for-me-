@@ -1,1 +1,196 @@
-h
+body {
+    background-color: #d8dfea;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 15px;
+}
+
+.main-table {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #999999;
+    border-collapse: collapse;
+}
+
+.header {
+    background-color: #3b5998;
+    color: white;
+    padding: 0;
+}
+
+.header-inner {
+    border-collapse: collapse;
+}
+
+.header-left {
+    width: 140px;
+    vertical-align: top;
+    padding: 8px;
+}
+
+.header-center {
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.header-right {
+    width: 100px;
+    text-align: right;
+    vertical-align: top;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.small-top-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border: 1px solid #cccccc;
+}
+
+.logo {
+    font-size: 42px;
+    font-weight: bold;
+    color: #dbe4ff;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.nav {
+    text-align: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 6px;
+    font-size: 12px;
+}
+
+.left-sidebar {
+    width: 160px;
+    vertical-align: top;
+    background-color: #f7f7f7;
+    border-right: 1px dashed #bbbbbb;
+    padding: 12px;
+}
+
+.search-box {
+    margin-bottom: 5px;
+}
+
+.search-box input {
+    width: 85px;
+    height: 20px;
+}
+
+.search-box button {
+    height: 24px;
+    background-color: #4b6cb7;
+    color: white;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+.quick-search-text {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.left-menu {
+    color: #668;
+    line-height: 1.8;
+}
+
+.left-menu a {
+    text-decoration: none;
+    color: #6a78a8;
+}
+
+.middle-content {
+    width: 300px;
+    vertical-align: top;
+    padding: 8px;
+}
+
+.right-content {
+    width: 440px;
+    vertical-align: top;
+    padding: 8px;
+}
+
+.profile-title {
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 8px;
+}
+
+.box {
+    border: 1px solid #999999;
+    margin-bottom: 12px;
+    background-color: white;
+}
+
+.box-title {
+    background-color: #3b5998;
+    color: white;
+    padding: 5px 8px;
+    font-weight: bold;
+}
+
+.edit-link {
+    float: right;
+    font-weight: normal;
+}
+
+.box-content {
+    padding: 8px;
+    background-color: #ffffff;
+}
+
+.center-content {
+    text-align: center;
+}
+
+.profile-image {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border: 1px solid #444444;
+}
+
+.button-list {
+    margin-bottom: 12px;
+}
+
+.button-list div {
+    border: 1px solid #999999;
+    background-color: #f1f1f1;
+    padding: 6px;
+    margin-bottom: 4px;
+    color: #6a78a8;
+}
+
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-table td {
+    padding: 3px 4px;
+    vertical-align: top;
+}
+
+.section-title {
+    font-weight: bold;
+    padding-top: 8px;
+    color: #222222;
+}
+
+.label {
+    width: 140px;
+    color: #333333;
+}

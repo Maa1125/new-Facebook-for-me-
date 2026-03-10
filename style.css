@@ -1,210 +1,210 @@
-body {
-    background-color: #d8dfea;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    margin: 0;
-    padding: 12px;
+body{
+    margin:0;
+    padding:12px;
+    background:#d8dfea;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
 }
 
-.main-table {
-    width: 900px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #8c8c8c;
-    border-collapse: collapse;
+.main{
+    width:100%;
+    max-width:1400px;
+    margin:0 auto;
+    border-collapse:collapse;
+    background:#d8dfea;
 }
 
-.header {
-    background-color: #3b5998;
-    color: white;
+.header{
+    background:#3b5998;
+    color:white;
+    height:120px;
 }
 
-.header-inner {
-    border-collapse: collapse;
+.header td{
+    padding:10px;
 }
 
-.header-left {
-    width: 150px;
-    vertical-align: top;
-    padding: 6px;
+.header img{
+    width:110px;
+    height:110px;
+    object-fit:cover;
+    border:2px solid #d9d9d9;
+    background:white;
 }
 
-.header-center {
-    vertical-align: top;
-    padding-top: 10px;
+.header h2{
+    margin:0;
+    font-size:28px;
+    color:#e7efff;
 }
 
-.header-right {
-    width: 100px;
-    text-align: right;
-    vertical-align: bottom;
-    padding: 8px 10px 10px 0;
-    color: white;
-    font-weight: bold;
-    font-size: 14px;
+.top-links{
+    margin-top:10px;
+    font-size:14px;
 }
 
-.small-top-image {
-    width: 110px;
-    height: 85px;
-    object-fit: cover;
-    border: 1px solid #bfc8dc;
+.top-links a{
+    color:white;
+    text-decoration:none;
+    margin:0 4px;
 }
 
-.logo {
-    font-size: 44px;
-    font-weight: bold;
-    color: #dbe4ff;
-    text-align: center;
-    margin-bottom: 5px;
-    letter-spacing: 1px;
+.sidebar{
+    width:220px;
+    vertical-align:top;
+    padding:12px 10px 12px 0;
 }
 
-.nav {
-    text-align: center;
-    padding-bottom: 8px;
+.content{
+    vertical-align:top;
+    padding:12px;
 }
 
-.nav a {
-    color: white;
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: 12px;
+.profile-column{
+    width:360px;
 }
 
-.left-sidebar {
-    width: 155px;
-    vertical-align: top;
-    background-color: #f7f7f7;
-    border-right: 1px dashed #b7b7b7;
-    padding: 12px;
+.info-column{
+    width:auto;
 }
 
-.search-box {
-    margin-bottom: 6px;
+.profile-title{
+    font-size:18px;
+    font-weight:bold;
+    margin:0 0 12px 0;
+    color:#000;
 }
 
-.search-box input {
-    width: 92px;
-    height: 20px;
-    border: 1px solid #999;
+.box{
+    border:1px solid #8d8d8d;
+    background:white;
+    margin-bottom:14px;
+    width:100%;
 }
 
-.search-box button {
-    height: 24px;
-    background-color: #4d72b8;
-    color: white;
-    border: 1px solid #7f7f7f;
-    cursor: pointer;
+.box-title{
+    background:#3b5998;
+    color:white;
+    font-weight:bold;
+    padding:6px 8px;
+    font-size:13px;
 }
 
-.quick-search-text {
-    font-weight: bold;
-    margin-bottom: 22px;
-    color: #333;
+.box-content{
+    padding:0;
 }
 
-.left-menu {
-    line-height: 1.7;
+.box-body{
+    padding:8px;
 }
 
-.left-menu a {
-    text-decoration: none;
-    color: #6c79a8;
+.search-input{
+    width:150px;
+    height:24px;
+    border:1px solid #999;
+    box-sizing:border-box;
 }
 
-.middle-content {
-    width: 280px;
-    vertical-align: top;
-    padding: 8px;
+.go-btn{
+    width:36px;
+    height:24px;
+    border:1px solid #999;
+    background:#f2f2f2;
+    cursor:pointer;
 }
 
-.right-content {
-    width: 465px;
-    vertical-align: top;
-    padding: 8px 8px 8px 0;
+.menu-box{
+    padding:10px 0 0 0;
+    line-height:1.45;
 }
 
-.profile-title {
-    font-weight: bold;
-    color: #333333;
-    margin-bottom: 8px;
-    border: 1px solid #999;
-    padding: 4px 6px;
-    background-color: #f7f7f7;
+.menu-box a{
+    display:block;
+    color:#4a5f93;
+    text-decoration:none;
+    font-size:13px;
+    margin-bottom:2px;
 }
 
-.box {
-    border: 1px solid #999999;
-    margin-bottom: 12px;
-    background-color: white;
+.profile-img{
+    width:100%;
+    max-width:320px;
+    height:360px;
+    object-fit:cover;
+    display:block;
+    margin:10px auto;
+    border:1px solid #444;
 }
 
-.box-title {
-    background-color: #3b5998;
-    color: white;
-    padding: 5px 8px;
-    font-weight: bold;
+.link-list{
+    padding:0;
 }
 
-.edit-link {
-    float: right;
-    font-weight: normal;
+.link-list div{
+    border-top:1px solid #a0a0a0;
+    padding:6px 8px;
+    background:#f7f7f7;
+    color:#4a5f93;
 }
 
-.box-content {
-    padding: 8px;
-    background-color: #ffffff;
+.info-table{
+    width:100%;
+    border-collapse:collapse;
 }
 
-.center-content {
-    text-align: center;
+.info-table td{
+    padding:3px 8px;
+    vertical-align:top;
+    font-size:13px;
 }
 
-.profile-image {
-    width: 250px;
-    height: 185px;
-    object-fit: cover;
-    border: 1px solid #333333;
+.info-table .label{
+    width:180px;
+    white-space:nowrap;
 }
 
-.button-list {
-    margin-bottom: 12px;
+.section{
+    font-weight:bold;
+    padding-top:8px;
 }
 
-.button-list div {
-    border: 1px solid #999999;
-    background-color: #f2f2f2;
-    padding: 6px 8px;
-    margin-bottom: 4px;
-    color: #6c79a8;
+.right-edit{
+    float:right;
+    font-weight:normal;
 }
 
-.info-table {
-    width: 100%;
-    border-collapse: collapse;
-}
+@media screen and (max-width: 1000px){
+    .main,
+    .main tbody,
+    .main tr,
+    .main td{
+        display:block;
+        width:100%;
+    }
 
-.info-table td {
-    padding: 3px 4px;
-    vertical-align: top;
-    color: #333;
-}
+    .sidebar,
+    .profile-column,
+    .info-column,
+    .content{
+        width:100%;
+        padding:10px 0;
+    }
 
-.section-title {
-    font-weight: bold;
-    color: #222222;
-    padding-top: 8px;
-    padding-bottom: 5px;
-}
+    .header table,
+    .header tr,
+    .header td{
+        display:block;
+        width:100%;
+        text-align:center !important;
+    }
 
-.label {
-    width: 140px;
-    color: #333333;
-}
+    .header img{
+        margin:0 auto 10px auto;
+        display:block;
+    }
 
-.inline-edit {
-    float: right;
-    font-weight: normal;
-    color: #666;
+    .profile-img{
+        max-width:100%;
+        height:auto;
+    }
 }

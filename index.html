@@ -1,239 +1,181 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>TheFacebook</title>
-
-<style>
-
-body{
-background:#d8dfea;
-font-family:Arial;
-font-size:12px;
-}
-
-.main{
-width:900px;
-margin:auto;
-border-collapse:collapse;
-background:white;
-}
-
-.header{
-background:#3b5998;
-color:white;
-height:90px;
-}
-
-.nav{
-background:#3b5998;
-color:white;
-text-align:right;
-padding:5px;
-}
-
-.sidebar{
-width:180px;
-background:#f2f2f2;
-vertical-align:top;
-padding:10px;
-}
-
-.content{
-vertical-align:top;
-padding:10px;
-}
-
-.box{
-border:1px solid #999;
-margin-bottom:10px;
-}
-
-.box-title{
-background:#3b5998;
-color:white;
-padding:5px;
-font-weight:bold;
-}
-
-.box-content{
-padding:8px;
-}
-
-.info td{
-padding:3px;
-}
-
-</style>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thefacebook Profile</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<table class="main">
+    <table class="main-table" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="3" class="header">
+                <table class="header-inner" width="100%">
+                    <tr>
+                        <td class="header-left">
+                            <img src="images/myphoto.jpg" alt="My Photo" class="small-top-image">
+                        </td>
+                        <td class="header-center">
+                            <div class="logo">[ thefacebook ]</div>
+                            <div class="nav">
+                                <a href="#">home</a>
+                                <a href="#">search</a>
+                                <a href="#">global</a>
+                                <a href="#">social net</a>
+                                <a href="#">invite</a>
+                                <a href="#">faq</a>
+                                <a href="#">logout</a>
+                            </div>
+                        </td>
+                        <td class="header-right">Scranton</td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
 
-<tr class="header">
-<td colspan="3">
+        <tr>
+            <td class="left-sidebar">
+                <div class="search-box">
+                    <input type="text">
+                    <button>go</button>
+                </div>
+                <div class="quick-search-text">quick search</div>
 
-<table width="100%">
-<tr>
-<td width="200">
-<img src="https://via.placeholder.com/120x70">
-</td>
+                <div class="left-menu">
+                    <a href="#">My Profile [ edit ]</a><br>
+                    <a href="#">My Groups</a><br>
+                    <a href="#">My Friends</a><br>
+                    <a href="#">My Messages</a><br>
+                    <a href="#">My Away Message</a><br>
+                    <a href="#">My Mobile Info</a><br>
+                    <a href="#">My Account</a><br>
+                    <a href="#">My Privacy</a>
+                </div>
+            </td>
 
-<td align="center">
-<h2>[ thefacebook ]</h2>
-</td>
+            <td class="middle-content">
+                <div class="profile-title">Your Name's Profile (This is you)</div>
 
-<td align="right">
-home &nbsp;
-search &nbsp;
-global &nbsp;
-social net &nbsp;
-invite &nbsp;
-faq &nbsp;
-logout
-</td>
+                <div class="box">
+                    <div class="box-title">
+                        Picture
+                        <span class="edit-link">[ edit ]</span>
+                    </div>
+                    <div class="box-content center-content">
+                        <img src="images/myphoto.jpg" alt="Profile Photo" class="profile-image">
+                    </div>
+                </div>
 
-</tr>
-</table>
+                <div class="button-list">
+                    <div>Visualize My Friends</div>
+                    <div>Edit My Profile</div>
+                    <div>My Account Preferences</div>
+                    <div>My Privacy Preferences</div>
+                </div>
 
-</td>
-</tr>
+                <div class="box">
+                    <div class="box-title">Connection</div>
+                    <div class="box-content center-content">This is you.</div>
+                </div>
 
+                <div class="box">
+                    <div class="box-title">Access</div>
+                    <div class="box-content">
+                        You are currently logged in from a non-residential location.
+                    </div>
+                </div>
+            </td>
 
-<tr>
+            <td class="right-content">
+                <div class="box">
+                    <div class="box-title">
+                        Information
+                        <span class="edit-link">[ edit ]</span>
+                    </div>
+                    <div class="box-content">
+                        <table class="info-table">
+                            <tr>
+                                <td colspan="2" class="section-title">Account Info:</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Name:</td>
+                                <td>Your Name</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Member Since:</td>
+                                <td>January 12, 2005</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Last Update:</td>
+                                <td>February 3, 2005</td>
+                            </tr>
 
-<td class="sidebar">
+                            <tr>
+                                <td colspan="2" class="section-title">Basic Info:</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Email:</td>
+                                <td>yourname@example.com</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Status:</td>
+                                <td>Student</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Sex:</td>
+                                <td>Female</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Year:</td>
+                                <td>2004</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Concentration:</td>
+                                <td>Computing Sciences</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Phone:</td>
+                                <td>9999-9999</td>
+                            </tr>
+                            <tr>
+                                <td class="label">High School:</td>
+                                <td>Your School</td>
+                            </tr>
 
-<div class="box">
-<div class="box-title">quick search</div>
-<div class="box-content">
-<input type="text" size="10">
-<button>go</button>
-</div>
-</div>
-
-My Profile<br>
-My Groups<br>
-My Friends<br>
-My Messages<br>
-My Account<br>
-My Privacy
-
-</td>
-
-
-<td class="content" width="350">
-
-<div class="box">
-<div class="box-title">Picture</div>
-<div class="box-content">
-
-<img src="https://via.placeholder.com/250x170">
-
-</div>
-</div>
-
-<div class="box">
-<div class="box-content">
-Visualize My Friends<br>
-Edit My Profile<br>
-My Account Preferences<br>
-My Privacy Preferences
-</div>
-</div>
-
-<div class="box">
-<div class="box-title">Connection</div>
-<div class="box-content">
-This is you.
-</div>
-</div>
-
-<div class="box">
-<div class="box-title">Access</div>
-<div class="box-content">
-Scott is currently logged in from a non-residential location.
-</div>
-</div>
-
-</td>
-
-
-<td class="content">
-
-<div class="box">
-<div class="box-title">Information</div>
-
-<div class="box-content">
-
-<table class="info">
-
-<tr>
-<td><b>Name:</b></td>
-<td>Scott Pearson</td>
-</tr>
-
-<tr>
-<td><b>Member Since:</b></td>
-<td>January 12, 2005</td>
-</tr>
-
-<tr>
-<td><b>Last Update:</b></td>
-<td>February 3, 2005</td>
-</tr>
-
-<tr>
-<td><b>Email:</b></td>
-<td>pearson@scranton.edu</td>
-</tr>
-
-<tr>
-<td><b>Year:</b></td>
-<td>2004</td>
-</tr>
-
-<tr>
-<td><b>Concentration:</b></td>
-<td>Computing Sciences</td>
-</tr>
-
-<tr>
-<td><b>Phone:</b></td>
-<td>570-499-4818</td>
-</tr>
-
-<tr>
-<td><b>High School:</b></td>
-<td>Dunmore HS '00</td>
-</tr>
-
-<tr>
-<td><b>Relationship:</b></td>
-<td>Single</td>
-</tr>
-
-<tr>
-<td><b>Political Views:</b></td>
-<td>Liberal</td>
-</tr>
-
-<tr>
-<td><b>Interests:</b></td>
-<td>Drinking, Football, Basketball</td>
-</tr>
-
-</table>
-
-</div>
-</div>
-
-</td>
-
-</tr>
-
-</table>
+                            <tr>
+                                <td colspan="2" class="section-title">Extended Info:</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Screenname:</td>
+                                <td>yourname07</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Looking For:</td>
+                                <td>Friendship</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Interested In:</td>
+                                <td>Women</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Relationship Status:</td>
+                                <td>Single</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Political Views:</td>
+                                <td>Liberal</td>
+                            </tr>
+                            <tr>
+                                <td class="label">Interests:</td>
+                                <td>Music, Travel, Reading</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
